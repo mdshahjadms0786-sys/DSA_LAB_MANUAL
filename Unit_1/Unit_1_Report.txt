@@ -1,0 +1,183 @@
+KR Mangalam University
+School of Engineering & Technology
+B.Tech CSE Core
+Subject: Data Structures (ETCCDS202)
+
+UNIT 1 – Foundations & Algorithmic Analysis
+Lab Manual Report
+
+
+-----------------------------------------
+Experiment 1: Stack ADT Implementation
+-----------------------------------------
+
+Aim:
+To implement Stack using Python and perform basic operations.
+
+Theory:
+Stack is a linear data structure that follows LIFO (Last In First Out) principle.
+Main operations:
+Push – Insert element
+Pop – Remove element
+Peek – View top element
+isEmpty – Check if stack is empty
+Size – Count elements
+
+Algorithm:
+1. Create an empty list.
+2. For push, append element.
+3. For pop, remove last element.
+4. For peek, return last element.
+5. Check length for size and empty condition.
+
+Time Complexity:
+Push – O(1)
+Pop – O(1)
+Peek – O(1)
+
+Space Complexity:
+O(n)
+
+Sample Output:
+10 pushed
+20 pushed
+Top element: 20
+Popped element: 20
+
+
+-----------------------------------------
+Experiment 2: Time Complexity Analysis
+-----------------------------------------
+
+Aim:
+To understand time complexity using different loops.
+
+Theory:
+Time complexity measures how runtime increases with input size.
+
+Cases:
+Single Loop – O(n)
+Nested Loop – O(n^2)
+Halving Loop – O(log n)
+
+Algorithm:
+1. Use single loop to print numbers.
+2. Use nested loops to print pattern.
+3. Divide number by 2 each iteration for log behavior.
+
+Time Complexity:
+O(n), O(n^2), O(log n)
+
+Space Complexity:
+O(1)
+
+Sample Output:
+O(n) → 1 2 3 4 5
+O(n^2) → Pattern printing
+O(log n) → 16 8 4 2 1
+
+
+-----------------------------------------
+Experiment 3: Recursive Factorial
+-----------------------------------------
+
+Aim:
+To calculate factorial using recursion.
+
+Theory:
+Factorial of n = n * (n-1)!
+Base Case: factorial(0) = 1
+
+Algorithm:
+1. If n == 0 or 1 return 1
+2. Else return n * factorial(n-1)
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+Sample Output:
+Factorial of 5 is 120
+
+
+-----------------------------------------
+Experiment 4: Fibonacci (Naive Recursion)
+-----------------------------------------
+
+Aim:
+To generate Fibonacci sequence using recursion.
+
+Theory:
+Fibonacci formula:
+F(n) = F(n-1) + F(n-2)
+
+Time Complexity:
+O(2^n)
+
+Space Complexity:
+O(n)
+
+Sample Output:
+0 1 1 2 3 5 8
+
+
+-----------------------------------------
+Experiment 5: Tower of Hanoi
+-----------------------------------------
+
+Aim:
+To solve Tower of Hanoi using recursion.
+
+Theory:
+Moves required = 2^n - 1
+
+Algorithm:
+1. Move n-1 disks to auxiliary.
+2. Move nth disk to destination.
+3. Move n-1 disks to destination.
+
+Time Complexity:
+O(2^n)
+
+Space Complexity:
+O(n)
+
+Sample Output:
+Move disk 1 from A to C
+Move disk 2 from A to B
+...
+
+
+-----------------------------------------
+Experiment 6: Recursive Binary Search
+-----------------------------------------
+
+Aim:
+To search element using recursive binary search.
+
+Theory:
+Binary search works on sorted array.
+Divide array into two halves repeatedly.
+
+Algorithm:
+1. Find mid index.
+2. If element == mid, return.
+3. If smaller, search left.
+4. Else search right.
+
+Time Complexity:
+O(log n)
+
+Space Complexity:
+O(log n)
+
+Sample Output:
+Element found at index 3
+
+-----------------------------------------
+
+Conclusion:
+All recursive and basic data structure concepts of Unit 1 were implemented successfully.
+Time and space complexities were analyzed.
